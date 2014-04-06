@@ -9,6 +9,6 @@ public class Game : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate (2, 0, 2);
+		transform.Rotate (0, 2, 0);
 	}
 }
