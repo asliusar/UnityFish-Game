@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Game : MonoBehaviour {
+	public class Game : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -12,26 +12,26 @@ public class Game : MonoBehaviour {
 	void Update () {
 		updateScore ();
 		if (!isInView()) {
-			restartGame ();
+			restartGame();
 		}
 		if (Input.anyKeyDown) {
-			move ();
+			move();
 		}
 	}
-	private bool isinView() {
+	private bool isInView() {
 		Vector3 port = Camera.main.WorldToViewportPoint (transform.position);
-		if ((port.x < 1) && (port.x > 0) && (port.y < 1) && (port.y < 0) && (port.z > 0)) {
-						return true;
+		if ((port.x < 1) && (port.y < 1) && (port.y >= 0) && (port.z >= 0)) {
+			return true;
 		} else {
 			return false;
 		}
 	}
 
 	private bool isStartButtonPressed;
-	public GUIText scoreLabel1;
+	public GUIText scoreLabel;
 
 	void OnGUI(){
-		if (isStartButtonPressed) {
+		if (!isStartButtonPressed) {
 			GUI.TextField (new Rect (Screen.width / 2 - 65, Screen.height / 2 - 11, 120, 32), "Do something to start");
 			if (Input.anyKeyDown) {
 			Time.timeScale = 1.0f;
@@ -54,14 +54,14 @@ public class Game : MonoBehaviour {
 	{
 		Time.timeScale = 0.0f;
 		isStartButtonPressed = false;
-		Application.LoadLevel (Application.loadedLevelName);
+		Application.LoadLevel(Application.loadedLevelName);
 	}
 
 	private void updateScore()
 	{
-		int score = (int)(transform.position.x / GenereteWorld.distanceBetweenObjects);
-		if ((score != (int.Parse(scoreLabel.text))) && (score > 0)) {
+		int score = (int)(transform.position.x / GenerateWorld.distanceBetweenObjects);
+		//if ((score != (int.Parse(scoreLabel.text))) && (score > 0)) {
 			scoreLabel.text = score.ToString();
-		}
+	//	}
 	}
 }
