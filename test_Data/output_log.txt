@@ -17,68 +17,7 @@ Platform assembly: D:\arh\test_Data\Managed\Assembly-UnityScript-firstpass.dll (
 Loading D:\arh\test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: D:\arh\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading D:\arh\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  8.842 seconds
+- Completed reload, in  0.052 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-PlayerConnection accepted from [192.168.1.2]
-Profiler is only supported with Pro License
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/Runtime/Profiler/ProfilerConnection.cpp Line: 209)
-
-UnloadTime: 1.458317 ms
-System memory in use before: 10.1 MB.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 0.924160 ms (FindLiveObjects: 0.016794 ms CreateObjectMapping: 0.033122 ms MarkObjects: 0.249584 ms  DeleteObjects: 0.009330 ms)
-
-UnloadTime: 1.378543 ms
-System memory in use before: 10.1 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 1.253518 ms (FindLiveObjects: 0.013062 ms CreateObjectMapping: 0.017260 ms MarkObjects: 0.299500 ms  DeleteObjects: 0.007930 ms)
-
-UnloadTime: 0.408664 ms
-System memory in use before: 10.1 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 0.696502 ms (FindLiveObjects: 0.008863 ms CreateObjectMapping: 0.008863 ms MarkObjects: 0.175875 ms  DeleteObjects: 0.005598 ms)
-
-UnloadTime: 1.414465 ms
-System memory in use before: 10.1 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 0.699768 ms (FindLiveObjects: 0.008397 ms CreateObjectMapping: 0.014461 ms MarkObjects: 0.158614 ms  DeleteObjects: 0.009796 ms)
-
-UnloadTime: 0.434789 ms
-System memory in use before: 10.1 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 0.619994 ms (FindLiveObjects: 0.008863 ms CreateObjectMapping: 0.007464 ms MarkObjects: 0.115228 ms  DeleteObjects: 0.005598 ms)
-
-UnloadTime: 0.397935 ms
-System memory in use before: 10.1 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 0.628858 ms (FindLiveObjects: 0.007930 ms CreateObjectMapping: 0.007464 ms MarkObjects: 0.124092 ms  DeleteObjects: 0.006064 ms)
-
-UnloadTime: 0.399334 ms
-System memory in use before: 10.1 MB.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.1 MB.
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 164.
-Total: 0.658248 ms (FindLiveObjects: 0.008863 ms CreateObjectMapping: 0.009330 ms MarkObjects: 0.168877 ms  DeleteObjects: 0.006064 ms)
-
