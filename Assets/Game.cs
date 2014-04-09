@@ -3,6 +3,9 @@ using System.Collections;
 
 	public class Game : MonoBehaviour {
 
+	void OnCollisionEnter() {
+		restartGame ();
+	}
 	// Use this for initialization
 	void Start () {
 		isStartButtonPressed = false;
@@ -17,10 +20,11 @@ using System.Collections;
 		if (Input.anyKeyDown) {
 			move();
 		}
+
 	}
 	private bool isInView() {
 		Vector3 port = Camera.main.WorldToViewportPoint (transform.position);
-		if ((port.x < 1) && (port.y < 1) && (port.y >= 0) && (port.z >= 0)) {
+		if ((port.x < 1) && (port.x>=0) && (port.y < 1) && (port.y >= 0) && (port.z >= 0)) {
 			return true;
 		} else {
 			return false;
@@ -42,7 +46,7 @@ using System.Collections;
 
 	private void move(){
 		rigidbody.velocity = new Vector3 (0, 0, 0);
-		rigidbody.AddForce(new Vector3(275,200,0),ForceMode.Force);
+		rigidbody.AddForce(new Vector3(275,400,0),ForceMode.Force);
 	}
 
 	private void onTriggerEnter(Collider other)

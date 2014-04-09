@@ -17,7 +17,67 @@ Platform assembly: D:\arh\test_Data\Managed\Assembly-UnityScript-firstpass.dll (
 Loading D:\arh\test_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: D:\arh\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading D:\arh\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.052 seconds
+- Completed reload, in  0.168 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+UnloadTime: 13.529324 ms
+System memory in use before: 9.8 MB.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 9.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 0.861181 ms (FindLiveObjects: 0.013528 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.146951 ms  DeleteObjects: 0.007464 ms)
+
+UnloadTime: 0.818262 ms
+System memory in use before: 9.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 9.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 0.803334 ms (FindLiveObjects: 0.009330 ms CreateObjectMapping: 0.011196 ms MarkObjects: 0.145551 ms  DeleteObjects: 0.006997 ms)
+
+UnloadTime: 0.886373 ms
+System memory in use before: 9.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 9.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 1.081842 ms (FindLiveObjects: 0.012595 ms CreateObjectMapping: 0.011662 ms MarkObjects: 0.184738 ms  DeleteObjects: 0.009330 ms)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+UnloadTime: 1.024927 ms
+System memory in use before: 9.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 9.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 1.288973 ms (FindLiveObjects: 0.012595 ms CreateObjectMapping: 0.017260 ms MarkObjects: 0.219727 ms  DeleteObjects: 0.008397 ms)
+
+UnloadTime: 0.645186 ms
+System memory in use before: 9.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 9.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 0.806599 ms (FindLiveObjects: 0.009796 ms CreateObjectMapping: 0.008863 ms MarkObjects: 0.150216 ms  DeleteObjects: 0.006997 ms)
+
+UnloadTime: 0.781874 ms
+System memory in use before: 9.8 MB.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 9.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 0.803800 ms (FindLiveObjects: 0.009330 ms CreateObjectMapping: 0.008863 ms MarkObjects: 0.148350 ms  DeleteObjects: 0.007464 ms)
+

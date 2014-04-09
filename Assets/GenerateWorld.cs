@@ -5,7 +5,7 @@ public class GenerateWorld : MonoBehaviour {
 	public Transform block;
 	public Transform player;
 	private float objectSpawnedTo = 5.0f;
-	public static float distanceBetweenObjects = 9.5f;
+	public static float distanceBetweenObjects = 6.0f;
 	private float nextCheck = 0.2f;
 	private ArrayList objects  = new ArrayList();
 
@@ -24,27 +24,38 @@ public class GenerateWorld : MonoBehaviour {
 	}
 
 	private void maintenance(float playerX) {
-		nextCheck = playerX + 30;
+		nextCheck = playerX + 90;
 		for (int i = objects.Count - 1; i>=0; i--) {
 			Transform block = (Transform)objects[i];
-			if (block.position.x < (transform.position.x - 30)) {
+			if (block.position.x < (transform.position.x - 10)) {
 				Destroy(block.gameObject);
 				objects.RemoveAt(i);
 			}
 
 		}
-		spawnObjects (5);
+		spawnObjects (20);
 	}
 
 	private void spawnObjects(int howMany){
 		float spawnX = objectSpawnedTo;
 		for (int i =0; i<howMany; i++) {
-			Vector3 pos = new Vector3(spawnX,6.0f,0);
-			float firstRandom = Random.Range(1,8.6f);
-			Transform blck = (Transform)Instantiate(block,pos,Quaternion.identity);
-			blck.localScale = new Vector3(0,(8.6f - firstRandom)*2,0);
+			int rand = Random.Range(0,2);
+			Vector3 pos;
+			if (rand == 1) {
+				pos = new Vector3(spawnX,6,0);
+			}else{
+				pos = new Vector3(spawnX,-6,0); 
+			}
+				float firstRandom = Random.Range(2,4);
+				Transform blck = (Transform)Instantiate(block,pos,Quaternion.identity);
+			if (rand == 1) {
+				blck.localScale = new Vector3(1,(8.6f - firstRandom)*2,1);
+			}else{
+				blck.localScale = new Vector3(1,(firstRandom-8.6f)*2,1);
+			}
 			objects.Add(blck);
 			spawnX = spawnX + distanceBetweenObjects;
+			objectSpawnedTo = spawnX;
 		}
 	}
 }
